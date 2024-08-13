@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            container: {
+                center: true,
+                padding: {
+                    DEFAULT: '50px',
+                    md: '130px',
+                    '2xl': '30px',
+            },
+            },
+            extend: {
+              colors: {
+              }
+            }
+          }
+          
+        }
+      </script>
+</head>
+<body>
+    <div class="bg-[#74C69D]">
+    <header class="  container flex pt-10 justify-between items-center ">
+        <img  width="150px"  src="/img/logo.png" alt="">
+        <ul class=" hidden md:flex text-white flex-row justify-between items-center gap-3">
+            <li class="cursor-pointer hover:text-[#6a82a7] transition-colors ease-linear">Home</li>
+            <li class="cursor-pointer hover:text-[#6a82a7] transition-colors ease-linear">Portfolio</li>
+            <li class="cursor-pointer hover:text-[#6a82a7] transition-colors ease-linear">Services</li>
+            <li class="cursor-pointer hover:text-[#6a82a7] transition-colors ease-linear">Contact</li>
+        </ul>
+        <img class="flex md:hidden" src="/img/burger.png" alt="">
+    </header>
+    <main>
+        <section class="flex flex-col-reverse md:flex-row container justify-between items-center text-white bg-[#74C69D]">
+            <div class="w-[400px] h-[400px] flex flex-col gap-3 justify-center items-start">
+                <h3 class="text-sm">
+                    WELCOME
+                </h3>
+                <h1 class="text-4xl">
+                    Lorem ipsum dolor sit amet consectetur 
+                </h1>
+                <p class="text-xs">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic
+                     quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?
+                </p>
+                <button class="text-black bg-white px-[15px] py-[5px] rounded-sm border-transparent border-[1px] transition ease-linear hover:bg-[#6a82a7] hover:text-white  active:bg-black active:text-white active:border-[#74C69D]">
+                    Explore
+                </button>
+            </div>
+            <img class="hover:scale-110 transition-all ease-linear" width="500px" src="/img/hero_img.png" alt="">
+        </section>
+    </div>
+        <section class="flex flex-col  container justify-center  pb-20 items-center text-black">
+            <div class="w-[400px] h-[300px] flex flex-col gap-3 justify-center items-center">
+                <p class="text-[#74C69D]">
+                    PARTNERS
+                </p>
+                <h1 class="text-4xl">
+                    Lorem Ipsum Dolor
+                </h1>
+                <p class="text-lg text-center ">
+                    Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit.
+                </p>
+            </div>
+            <div class="flex flex-col md:flex-row gap-10 justify-center items-center  ">
+                <img class="hover:scale-110 transition-all ease-linear" width="150px" src="/img/sec1.png" alt="">
+                <img class="hover:scale-110 transition-all ease-linear" width="180px" src="/img/sec2.png" alt="">
+                <img class="hover:scale-110 transition-all ease-linear" width="160px" src="/img/sec3.png" alt="">
+                <img class="hover:scale-110 transition-all ease-linear" width="190px" src="/img/sec4.png" alt="">
+                <img class="hover:scale-110 transition-all ease-linear" width="160px" src="/img/sec5.png" alt="">
+            </div>
+            <button class="text-white bg-black px-[15px] py-[5px] mt-10 rounded-sm border-transparent border-[1px] transition ease-linear hover:bg-[#74C69D]  active:bg-white active:text-black active:border-[#74C69D]">
+                Learn More
+            </button>
+        </section>
+        <section class="flex flex-col md:flex-row  container justify-center gap-10 pt-10 pb-20 items-center ">
+            <img class="hover:scale-110 transition-all ease-linear" width="500px" src="/img/sec img.png" alt="">
+            <div class="w-[400px] h-[300px] flex flex-col gap-3 text-black justify-center items-start">
+                <h1 class="text-4xl">
+                    Lorem ipsum dolor sit amet consectetur 
+                </h1>
+                <p class="text-lg ">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?
+                </p>
+                <button class="text-white bg-black px-[15px] py-[5px] mt-10 rounded-sm border-transparent border-[1px] transition ease-linear hover:bg-[#74C69D]  active:bg-white active:text-black active:border-[#74C69D]">
+                    Learn More
+                </button>
+            </div>
+        </section>
+        <section  class="flex flex-col-reverse md:flex-row  container justify-center gap-10 pt-10 pb-20 items-center ">
+            <div class="w-[400px] h-[300px] flex flex-col gap-3 text-black justify-center items-start">
+                <h1 class="text-4xl">
+                    Lorem ipsum dolor sit amet consectetur 
+                </h1>
+                <p class="text-lg ">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?
+                </p>
+                <button class="text-white bg-black px-[15px] py-[5px] mt-10 rounded-sm border-transparent border-[1px] transition ease-linear hover:bg-[#74C69D]  active:bg-white active:text-black active:border-[#74C69D]">
+                    Learn More
+                </button>
+            </div>
+            <img class="hover:scale-110 transition-all ease-linear" src="/img/sec img2.png" alt="">
+        </section>
+        <section class="flex flex-col  container justify-center  pb-20 items-center text-black">
+            <div class="w-[400px] h-[300px] flex flex-col gap-3 justify-center items-center">
+                <p class="text-[#74C69D]">
+                    TEAM
+                </p>
+                <h1 class="text-4xl">
+                    Our Talents
+                </h1>
+                <p class="text-lg text-center ">
+                    Lorem ipsum, dolor sit amet consectetur
+                    Suscipit nemo hic quos, ab,
+                </p>
+            </div>
+            <div class="flex flex-col  md:flex-row gap-10 justify-center items-center">
+                <div class="  shadow-2xl w-[250px] h-[280px] flex justify-center items-center flex-col gap-4 pl-5 border-[1px] transition-all ease-linear hover:scale-125">
+                    <img src="/img/card1.png" alt="">
+                    <div class="flex justify-center items-start w-full flex-col  gap-5">
+                        <h2 class="text-xl ">Peg Legge</h2>
+                        <p class="text-xs ">CEO</p>
+                    </div>
+                </div>
+
+                <div class="shadow-2xl w-[250px] h-[280px] flex justify-center items-center flex-col gap-4 pl-5 border-[1px] transition-all ease-linear hover:scale-125">
+                    <img src="/img/card2.png" alt="">
+                    <div class="flex justify-center items-start w-full flex-col  gap-5">
+                        <h2 class="text-xl ">Richard Guerra</h2>
+                        <p class="text-xs ">CTO</p>
+                    </div>
+                </div>
+
+                <div class=" shadow-2xl w-[250px] h-[280px] flex justify-center items-center flex-col gap-4 pl-5 border-[1px] transition-all ease-linear hover:scale-125">
+                    <img src="/img/card3.png" alt="">
+                    <div class="flex justify-center items-start w-full flex-col gap-5">
+                        <h2 class="text-xl ">Alexandra Stolz</h2>
+                        <p class="text-xs ">DESIGNER</p>
+                    </div>
+                </div>
+
+                <div class=" shadow-2xl w-[250px] h-[280px] flex justify-center items-center flex-col gap-4 pl-5 border-[1px] transition-all ease-linear hover:scale-125">
+                    <img src="/img/card4.png" alt="">
+                    <div class="flex justify-center items-start w-full flex-col  gap-5">
+                        <h2 class="text-xl ">Janet Bray</h2>
+                        <p class="text-xs ">DEVELOPER</p>
+                    </div>
+                </div>
+            </div>
+            <button class="text-white bg-black px-[15px] py-[5px] mt-10 rounded-sm border-transparent border-[1px] transition ease-linear hover:bg-[#74C69D]  active:bg-white active:text-black active:border-[#74C69D]">
+                Learn More
+            </button>
+        </section>
+    </main>
+    <div class="bg-[#74C69D]">
+    <footer class=" h-[125px] container flex flex-row justify-between items-center ">
+            <img src="/img/footer img.png" alt="">
+            <p class="text-sm text-white">
+                © Start, 2022. All rights reserved.
+            </p>
+    </footer>
+    </div>
+</body>
+</html>
